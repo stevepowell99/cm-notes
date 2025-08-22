@@ -16,6 +16,10 @@
     "/930 Beyond causal mapping",
     "index.md"
   ],
+    "nav": {
+    "logo": "logo.jpeg",
+    "title": "The causal mapping universe"
+  },
   "theme": "letterpress",
   "showSidebar": true
 }

@@ -1,8 +1,6 @@
-
-> From Better Evaluation.
-
 # When to use and not to use causal mapping
 
+> From Better Evaluation.
 
 ## When to use  causal mapping
 

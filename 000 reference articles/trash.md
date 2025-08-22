@@ -2,7 +2,7 @@
 
 ![[Abstract]]
 
-![[015 causal mapping for evaluation/Reconstructing program theory empirically]] 
+![[015 Causal mapping in evaluation/Reconstructing program theory empirically]] 
 
 ![[Causal mapping as a way to reconstruct program theory empirically]]
 

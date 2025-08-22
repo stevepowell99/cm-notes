@@ -1,1 +1,0 @@
-So is the reason that character x does fall inlove for the character it looks like Hugh Grant is just because that's a meme that everyone understands but is this a cause of explanation

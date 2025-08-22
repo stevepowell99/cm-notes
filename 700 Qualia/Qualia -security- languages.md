@@ -1,0 +1,38 @@
+sent itad
+
+- what to do about people / clients who are sceptical, quotes
+- Jordan
+- Hi David, I said I'd write some extra notes re the AI behind Qualia.
+- Languages: There are two things to think about, the transcription service (necessary only if we enable the option for people to speak instead of type) and the AI interviewer service which provides interviewer responses.
+  - Brazilian Portuguese should be fine for both. 
+  - Kurdish would require us using dedicated services for both, it probably wouldn't be worth it. 
+  - For Arabic variants (beyond Modern Standard), the situation is more tricky, but probably similar for both.  As I understand the current state of affairs the problem the models have with Arabic variants is more about cultural adaptation rather than the language itself. For voice transcription we would probably need us to install a special model which would then reportedly be ok in Jordan, and for the chat interviewer service we'd probably use our standard gpt-4.1 as that is promising for Arabic variants. But we can't guarantee this would work.
+  - Otherwise the top 50 or so languages in terms of how present they are on the internet should all work fine.
+  - Although Qualia does a very good job of detecting / guessing the respondent's preferred language and adapting to that, we get best results if we don't do that but tell it in advance which language will be used -- but this means people who we expect to use, say, Portuguese are not then able to switch to, say, English. 
+- Data security and compliance
+  - Our candid opinion is that although many clients are understandably extremely cautious about using AI, the risks are completely within the range of any other online data collection, e.g. questionnaires. A system is only as secure as its weakest link. For example if datasets are being shared by an online service like Google Drive, there is not much point having a Fort-Knox-level AI service ...
+  - For Qualia:
+    - The transcription and Interviewer APIs are located in the USA, at openAI's servers. Data is not used for training. Data is retained there for 30 days for US compliance purposes. 
+    - Interview data is stored at a Heroku SQL database in the USA. Data is encrypted at rest and in transit. This is standard best practice. We have daily backups. While it is relatively easy to move the location of AI services it is quite difficult to move the location of database servers. 
+    - Clients are sometimes concerned about the AI data being temporarly stored in the US. However, so is just about everything else that happens on the internet .... If the client requires using AI services located say in the UK or EU, we could probably do that. But it is not obvious to me what would be gained. It is in theory possible to also provide AI services which are not retained for 1-30 days for compliance purposes. However this may require justification and could conceivably attract the attention of e.g. anti-terrorism agencies. 
+- Some ideas for reassuring clients
+  - **The Data Security Sceptic**
+    - A client who is primarily concerned about data privacy, security compliance, and the risks associated with AI-powered interview tools.
+    - Qualia's data security measures are on par with standard online data collection methods, with encryption both at rest and in transit in the Heroku SQL database.
+    - Interview data is not used for AI training, addressing concerns about proprietary or sensitive information being used to improve AI models.
+    - The temporary 30-day storage of data on US servers is comparable to most internet services and tools commonly used in research. There are good reasons for the data retention controls.
+    - Daily backups ensure data integrity and protection against loss.
+  - **The Language Capability Doubter**
+    - A client who questions whether Qualia can effectively handle interviews in their target language or across multiple languages.
+    - Qualia supports approximately the top 50 languages present on the internet, with particularly strong capabilities in major languages like Brazilian Portuguese.
+    - For optimal results, we can configure Qualia to specifically operate in your target language rather than relying on automatic detection.
+    - The system combines both transcription services (for spoken responses) and AI interviewer capabilities customized to your language needs.
+    - Less common languages may require special considerations, we can evaluate feasibility for your specific language requirements.
+    - Qualia's language capabilities allow for consistent interview quality across different markets, ensuring comparable data collection.
+  - **The AI Reliability Skeptic**
+    - A client who is uncertain about the reliability, quality, and authenticity of AI-conducted interviews compared to traditional human methods.
+    - Qualia operates on the best available new generative AI technology, producing consistent and friendly interviews that eliminate human interviewer variation. 
+    - The system can be precisely configured to follow your interview protocol, ensuring methodological rigor.
+    - We can provide demonstrations showing how Qualia handles different respondent types and interview scenarios.
+    - The AI interviewer can adapt to respondent answers while maintaining your research objectives, combining flexibility with consistency.
+    - Using Qualia allows you to conduct more interviews within your budget, significantly increasing sample size and explanatory power.

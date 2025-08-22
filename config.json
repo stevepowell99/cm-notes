@@ -1,3 +1,21 @@
 {
+  "contentInclude": [
+    "/010 Causal mapping",
+    "/011 Algorithms and questions",
+    "/012 Causal Map app",
+    "/014 Causal QDA",
+    "/015 Causal mapping in evaluation",
+    "/400 AI reaction",
+    "/500 AI - rigour - black box",
+    "/550 Bias in AI",
+    "/600 AI techniques - specific",
+    "/700 Qualia",
+    "/750 Workflows",
+    "/800 Applications",
+    "/9100 philosophy",
+    "/930 Beyond causal mapping"
+  ],
   "showSidebar": true
 }
+
+

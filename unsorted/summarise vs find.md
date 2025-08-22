@@ -1,0 +1,1 @@
+Tip when assessing AI, be explicit about different tasks in terms of reliability/ is there a standard

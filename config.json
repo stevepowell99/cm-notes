@@ -16,6 +16,7 @@
     "/930 Beyond causal mapping",
     "index.md"
   ],
+  "theme": "letterpress",
   "showSidebar": true
 }
 

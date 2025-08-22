@@ -1,3 +1,7 @@
 {
-  "showSidebar": true
+  "showSidebar": true,
+    "contentInclude": [
+    "/010 causal mapping",
+    "/011 algorithms and questions"
+  ]
 }

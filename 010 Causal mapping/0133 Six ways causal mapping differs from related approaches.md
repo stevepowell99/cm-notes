@@ -1,4 +1,3 @@
-# Six ways causal mapping differs from related approaches
 
 > From [Powell, Copestake, et al. (2023)]()
 

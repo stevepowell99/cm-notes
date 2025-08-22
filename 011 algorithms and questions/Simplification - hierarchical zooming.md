@@ -1,0 +1,1 @@
+# Simplification - hierarchical zooming

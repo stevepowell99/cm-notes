@@ -4,7 +4,7 @@
 > From [Powell, Copestake, et al. (2023)]()
 
    
-[[01382 dangers coding granularity and generalisability]]
+[[01382 Dangers - granularity and generalisability]]
 [[Source clustering]]   
 
 **The transitivity trap**

@@ -18,8 +18,31 @@
   ],
     "nav": {
     "logo": "logo.jpeg",
-    "title": "The causal mapping universe"
+    "title": "The causal mapping universe",
+    "links": [
+      {
+        "href": "/blog",
+        "name": "Blog"
+      },
+      {
+        "href": "/about",
+        "name": "About"
+      }
+    ],
+    "social": [
+      {
+        "label": "github",
+        "name": "GitHub Profile",
+        "href": "https://github.com/stevepowell99"
+      },
+      {
+        "label": "linkedin",
+        "name": "LinkedIn",
+        "href": "https://www.linkedin.com/in/stevepowell99/"
+      }
+    ]
   },
+  
   "theme": "letterpress",
   "showSidebar": true
 }

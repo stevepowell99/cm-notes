@@ -1,5 +1,5 @@
 
-[[700 retraceable reconstructable Operationalization]]
+[[!700 Retraceable, reconstructable, operationalisable]]
 
 - Yes! we hear a lot about how one could or should mix and match our methods. But there isn't much on HOW to do that. That's why Tom and Marina's Bricolage paper really hits the spot. 
 

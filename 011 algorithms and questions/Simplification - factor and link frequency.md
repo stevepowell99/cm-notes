@@ -1,1 +1,0 @@
-# Simplification - factor and link frequency

@@ -38,7 +38,7 @@ To understand why tasks differ so widely in their difficulty, we use a simple 2x
 
 Undecidable problems with high IRR are called insight problems in psychology.
 
-Solvers can improve IRR by adding their working / traceability [[700 retraceable reconstructable Operationalization]]
+Solvers can improve IRR by adding their working / traceability [[!700 Retraceable, reconstructable, operationalisable]]
 
 But what if the raters are gullible and taken in by a false explanation?
 

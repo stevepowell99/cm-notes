@@ -1,0 +1,9 @@
+# Steps in using causal mapping to gather evidence about structure/theory and contribution simultaneously
+
+
+
+Our suggestion comprises the following steps (following Tasks 1-3 according to [Powell, Copestake, et al. (2023](https://www.zotero.org/google-docs/?u04Uxi), p. 108-112): 
+
+1. Gathering data by interviewing stakeholders about key issues of mutual interest (for example, outcomes) and asking what drives these issues, and how they are interrelated with the drivers. For example, we can ask about outcomes and causes of outcomes and causes of causes. (We use the term “causal” here in the loosest sense: we make causal connections every day using ordinary language when we say that one thing contributes to or drives or influences another, or makes, or might make, something else happen.) For applications using Option B (above), this step will look somewhat different, but we will not cover Option B here.
+2. Code causal claims; we can then use causal mapping rules to identify causal claims within transcripts of these interviews. Each claim is a link between one cause or “influence” factor and one effect or “consequence” factor. This will result in many individual causal maps, one per source/stakeholder. 
+3. Synthesise the individual causal maps into a causal network, showing common and diverging views, and then query the network to answer evaluation questions.

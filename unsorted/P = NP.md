@@ -1,0 +1,4 @@
+# P=NP
+?
+Are all problems verifiable in polynomial time actually solvable in polynomial time?
+**Problems in NP:** In computer science, a similar concept exists in complexity theory. The class of problems known as **NP** (nondeterministic polynomial time) consists of problems for which a proposed solution can be _verified_ as correct efficiently (in polynomial time), even though there is no known efficient algorithm to _find_ the solution in the first place. The famous "P vs NP" problem asks whether these two classes of problems are actually the same. This provides a computational analogy to the "hard to solve, easy to check" nature of insight problems.

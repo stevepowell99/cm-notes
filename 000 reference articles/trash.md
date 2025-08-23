@@ -6,7 +6,7 @@
 
 ![[Causal mapping as a way to reconstruct program theory empirically]]
 
-![[Steps in using causal mapping to gather evidence about structuretheory and contribution simultaneously]]
+![[It is possible to gather evidence at scale about program theory and contribution simultaneously - three steps]]
 
 ![[Steps in scaling the automated causal mapping workflow]] 
 
